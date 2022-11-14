@@ -1,0 +1,87 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    bottom: 0;
+    
+}
+body > .main{
+  height: auto;
+  min-height: 100%;
+}
+.main{
+    float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  bottom: 0;
+  
+}
+.col,
+  [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+button {
+    display: block;
+    background-color: #DA2722;
+    color: #fff;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+   button.active {
+    background-color:#ddd;
+    color: rgb(14, 13, 13);
+  }
+  button.active:hover{
+      color: brown;
+  }
+  
+  
+  /* Change background color of buttons on hover */
+   button:hover {
+
+    color: rgb(25, 243, 6);
+    font-weight: bold;
+  }
+
+  .innerleft{
+    height: auto;
+    width:10px;
+      min-height: 100%;
+      padding: 50px;
+      background-color: #DA2722;
+  }
+  .innerright{
+      padding-left: 10px;
+      background-color: white;
+  }
+  .navheading{
+      color: rgb(243, 243, 44);
+      padding: 3px;
+      padding-left: 5px ;
+  }
+  table, th, td {
+    padding: 5px;
+    border: 1px solid black; 
+    border-collapse: collapse;
+  }
+  .tabContent{
+     /* color: blueviolet;*/
+  }
+  h3,h2{
+ color: #000;
+  }
+  li{
+    list-style: none;
+  }
+  .pics{
+    height: 250px;
+    width: 320px;
+  }
